@@ -9,7 +9,7 @@ void	ft_print_alphabet(void)
 {
 	char lettre = 'a';
 
-	while (lettre != 'z' + 1)
+	while (lettre <= 'z')
 	{
 		ft_putchar(lettre);
 		lettre++;
