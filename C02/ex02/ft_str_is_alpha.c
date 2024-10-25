@@ -1,5 +1,9 @@
 int	ft_str_is_alpha(char *str)
 {
+	if (str[0] = '\0')
+	{
+		return 1;
+	}
 	int i = 0;
 	while (str[i] != '\0')
 	{
