@@ -9,8 +9,8 @@ void print_hex(char c)
 {
 	char *hex = "0123456789abcdef";
 	ft_putchar('\\');
-	ft_putchar(hex[(c >> 4) & 0xF]);
-	ft_putchar(hex[c & 0xF]);
+	ft_putchar(hex[(c / 16)];
+	ft_putchar(hex[c % 16]);
 }
 
 void	ft_putstr_non_printable(char *str)
